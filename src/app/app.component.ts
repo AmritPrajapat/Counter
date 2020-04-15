@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'counterExample';
+  countValue : number=0;
+  IncreaseCounter()
+  {
+    this.countValue++;
+  }
+
+  CleasrCounter()
+  {
+    this.countValue = 0;
+  }
+
+
 }
